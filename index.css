@@ -1,0 +1,39 @@
+* {
+    background: url(download.jpeg);
+    background-size: cover;
+    color: white;
+}
+
+header {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    align-items: center;}
+ 
+nav ul { list-style: none;}
+ 
+ nav ul li {
+    display: inline-block;
+    margin-right: 2rem; }
+ 
+ nav ul li a {
+    text-decoration: none;
+    font-weight: 900;
+    font-size: x-large; }
+
+ .btn {  
+    display: none; 
+}
+
+.hero-content {
+    display: flex;
+    gap: 100px;
+
+}
+
+.hero img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
