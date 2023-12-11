@@ -37,3 +37,26 @@ nav ul { list-style: none;}
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
+
+.sponsorship {
+    display: flex;
+    gap: 100px;
+}
+
+footer {
+    display: inline-block;
+}
+
+
+.hero-section {
+    display: flex;
+    gap: 200px;
+}
+
+.RSVP-form {
+    display: flex;
+}
+
+.RSVP-form img {
+    width: 150px;
+}
