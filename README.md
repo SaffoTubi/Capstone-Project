@@ -30,7 +30,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository: 
 
-git clone https://github.com/SaffoTubi/Capstone-Project
+git clone https://github.com/SaffoTubi/Capstone-Project.git
 
 2. Open index.html in a browser.
 
