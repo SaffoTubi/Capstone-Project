@@ -6,17 +6,18 @@ BOLD EVENT WEBSITE
 ## Figma Design
 
  <a href="
-https://www.figma.com/file/nCwgl6FZ6D0cyc0UrtO0aG/Zindua?type=design&mode=design&t=rjQIMpZvzvOVwvF4-1">View my Figma design</a>
+https://www.figma.com/file/DaToHkl2VqWbbTGwkdKI01/Saffo-%26-Enoch-Capstone-Project-(Event-Website)?type=design&node-id=0%3A1&mode=design&t=UKZCOU1QX1HrR6FJ-1"> View my Figma design</a>
 
 ## Live Link
 
-View the live project:   <a href="https://ezekielkibiego.github.io/portfolio_website/">View Live</a>
+View the live project:   <a href="saffotubi.github.io/Capstone-Project/">View Live</a>
 
 ## Features 
 
-- Navbar
-- About 
+- Navbar Menu
+- Event details
 - Contact form
+RSVP form
 
 ## Technologies Used 
 
@@ -30,7 +31,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository: 
 
-git clone https://github.com/ezekielkibiego/portfolio_website
+git clone https://github.com/SaffoTubi/Capstone-Project
 
 2. Open index.html in a browser.
 
@@ -42,6 +43,10 @@ This website is deployed using GitHub Pages.
 
 This project is licenced under the MIT Licence
 
-## Contact me 
+## group members 
 
 Email: temboenoch@gmail.com
+Email: tubisaffo@gmail.com
+
+Enoch Tembo
+Saffo Mohamed
