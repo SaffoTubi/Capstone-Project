@@ -5,10 +5,10 @@ Showcasing the BOLD CHRISTMAS EXTRAVAGANZA
 
 ## Figma Design
 
- <a href="
-https://www.figma.com/file/nCwgl6FZ6D0cyc0UrtO0aG/Zindua?type=design&mode=design&t=rjQIMpZvzvOVwvF4-1">View my Figma design</a>
+ <a href="https://www.figma.com/file/DaToHkl2VqWbbTGwkdKI01/Saffo-%26-Enoch-Capstone-Project-(Event-Website)?type=design&node-id=0%3A1&mode=design&t=UKZCOU1QX1HrR6FJ-1">figma link</a>
 
 ## Live Link
+
 
 View the live project:   <a href=" https://saffotubi.github.io/Capstone-Project/"> View Live </a>
 
@@ -18,6 +18,16 @@ View the live project:   <a href=" https://saffotubi.github.io/Capstone-Project/
 - Events Page
 - Contact form
 - RSVP Page 
+
+View the live project:   <a href="saffotubi.github.io/Capstone-Project/">View Live</a>
+
+## Features 
+
+- Navbar Menu
+- Event details
+- Contact form
+-RSVP form
+
 
 ## Technologies Used 
 
@@ -43,6 +53,10 @@ This website is deployed using GitHub Pages.
 
 This project is licenced under the MIT Licence
 
-## Contact me 
+## group members 
 
 Email: temboenoch@gmail.com
+Email: tubisaffo@gmail.com
+
+Enoch Tembo
+Saffo Mohamed
