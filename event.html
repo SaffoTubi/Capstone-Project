@@ -16,18 +16,29 @@
   
          <nav class="Topnav">
               <ul>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="event.html">Event</a></li>
                 <li><a href="RSVP.html">RSVP</a></li>
                 <li><a href="contact.html">Contact</a></li>
+
              </ul>
           </nav>
-          <button><a href="index.html">Explore</a></button>
+          <button class="explorebtn"><a href="event.html">Explore</a></button>
 
-          <a href="" class="btn"><img src="menu-dots.svg" alt="menu dots"></a>
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Menu
+                <img src="menu-dots.svg" alt=""> </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="event.html">Home</a>
+                <a href="RSVP.html">RSVP</a>
+                <a href="contact.html">Contact</a>
+            </div>
+          </div>
+          
       </header>
 
       <section class="pagetitle">
-        
+        <h2>BOLD Events presents: A BOLD CHRISTMAS EXTRAVAGANZA</h2>
       </section>
 
       <section class="hero-section">
@@ -35,19 +46,20 @@
         <img src="extravaganza.jpg" alt="supporting.img">
 
         <div class="main">
-            <div id="#HOME" class="tabcontent">             
+            <div  class="tabcontent">             
                <p> BOLD CHRISTMAS EXTRAVAGANZA</p>
             </div>
         
-            <div id="#ABOUT" class="tabcontent">              
+            <div  class="tabcontent">              
                <p> Category: Entertainment/Holiday Festival </p>
             </div>
         
-            <div id="#CONTACT" class="tabcontent">
-              <p>Date : SUNDAY 24th DECEMBER 2023, 5:00 PM  </p>
+            <div  class="tabcontent">
+              <img src="calendar-days-solid.svg" alt="Date"><p> SUNDAY 24th DECEMBER 2023, 5:00 PM  </p>
             </div>
         
-            <div id="#PROJECTS" class="tabcontent">
+            <div  class="tabcontent">
+                <img src="location-dot-solid.svg" alt="Location pin">
                <p> OLE SERENI, MOMBASA RD  </p>
             </div>
          </div>
@@ -55,66 +67,81 @@
 
       <div class="About">
         <h2>About </h2>
-    <p>Get ready for a Christmas celebration like no other! <br>
-      <strong>The Bold Christmas Extravaganza </strong>is not just an event; <br>
-      it's an explosion of joy, color, and festive cheer. <br>
-      Dive into a world where traditions meet modern flair, <br>
-      and the spirit of Christmas takes center stage with a bold twist.
+    <p>Get ready for a Christmas celebration like no other! </p> 
 
+    <p>
+    <strong>The Bold Christmas Extravaganza </strong>is not just an event; <br>
+        it's an explosion of joy, color, and festive cheer. <br>
+        Dive into a world where traditions meet modern flair, <br>
+        and the spirit of Christmas takes center stage with a bold twist.
     </p>
+    
     </div>
 
     <div>
-       countdown timer 
+        <script>(function(d, s, id) { var js, pjs = d.getElementsByTagName(s)[0];
+             if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; 
+             js.src = "//www.tickcounter.com/static/js/loader.js"; pjs.parentNode.insertBefore(js, pjs); }
+             (document, "script", "tickcounter-sdk"));</script><a data-type="countdown" data-id="4689208"
+              class="tickcounter" style="display:block; left:0; width:100%; height:0; position:relative;
+               padding-bottom:25%; margin:0 auto;" title="BOLD Christmas Extravaganza" 
+               href="//www.tickcounter.com/">BOLD Christmas Extravaganza</a>
     </div>
 
-    <div class="Tickets">
-      <h3>Purchase Tickets</h3>
-     <div> 
-      <thead class="header">
-         <th style="width: 40%;">Ticket Type</th>
-         <th style="width: 40%">Price</th>
-         <th style="width: 40%;">Quantity</th>
-         <th style="width: 40%;">total</th>
-
-      </thead>
-
-      <tbody>
-         <tr>
-            <td>
-               REGULAR
-            </td>
-            <td>
-               <p>2000</p>
-            </td>
-            <td>
-               group
-            </td>
-         </tr>
-      </tbody>
-        regular
+      <div class="tickets">
+         <h3>Purchase</h3>
+         <div class="ticket-type">
+            <div class="Regular">
+                <h4>REGULAR</h4>
+                KSH 1500
+                <p>Regular table <br>
+                    2 Course Meal <br>
+                    Refreshments <br> </p>
+                    <button><a href="RSVP.html"></a> Buy Ticket Now </button>
+            </div>
+            <div class="group">
+                <h4>Group of 5</h4>
+                KSH 6000
+                <p>Regular table <br>
+                    2 Course Meal <br>
+                    Refreshments <br></p>
+                <button> <a href="RSVP.html"></a> Buy Ticket Now </button>
+            </div>
+            <div class="VIP">
+                <h4>VIP</h4>
+                KSH 3500
+                <p>Regular table <br>
+                    Buffet Meal Service <br>
+                    Refreshments <br>
+                    Complimetary Wine Bottle <br>
+                    Gift Bag </p>
+                    <button> <a href="RSVP.html"></a> Buy Ticket Now </button>
+            </div>
+         </div>
+     
      </div>
-     <div>
-        group
-     </div>
-     <div>
-        vip
-     </div>
 
-    </div>
 
-      <footer>
-        <p>&copy; 2023 . All rights reserved.
-           <div class="social-media">
-          <a href="https://twitter.com/YourTwitter" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-twitter-square"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/Saffotubi" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="https://github.com/Saffo tubi" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-github-square"></i>
-          </a> </p>
+     <footer>
+        <div class="footer">
+            <p>&copy; <strong>BOLD EVENTS</strong> 2023 . All rights reserved.
+      
+              <div class="footercontact">
+                  <a href="contact.html" target="_blank" rel="noopener noreferrer">
+                      <i class="fab fa-phone"></i>Contact Us</a>
+              </div>
+      
+               <div class="social-media">
+             
+              <a href="https://twitter.com/YourTwitter" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-twitter-square"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/Saffotubi" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-linkedin"></i>
+              </a>
+            <a href="https://www.instagram.com/_.coco.___________ "><i class="fab fa-instagram-square"></i></a>
+            </p> </div>
+        </div>
       </footer> 
     
 </body>
