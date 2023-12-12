@@ -5,7 +5,7 @@ BOLD EVENT WEBSITE
 
 ## Figma Design
 
- <a href="https://www.figma.com/file/DaToHkl2VqWbbTGwkdKI01/Saffo-%26-Enoch-Capstone-Project-(Event-Website)?type=design&node-id=0%3A1&mode=design&t=UKZCOU1QX1HrR6FJ-1"></a>
+ <a href="https://www.figma.com/file/DaToHkl2VqWbbTGwkdKI01/Saffo-%26-Enoch-Capstone-Project-(Event-Website)?type=design&node-id=0%3A1&mode=design&t=UKZCOU1QX1HrR6FJ-1">figma link</a>
 
 ## Live Link
 
