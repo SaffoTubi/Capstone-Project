@@ -16,7 +16,7 @@ View the live project:   <a href="saffotubi.github.io/Capstone-Project/">View Li
 - Navbar Menu
 - Event details
 - Contact form
-RSVP form
+-RSVP form
 
 ## Technologies Used 
 
