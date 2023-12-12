@@ -10,72 +10,94 @@
 </head>
 <body>
     
-    <header>
-        <a href="index.html"><img src="logo.svg" alt="Photo"
-           width="30px" height="30px"></a>
-  
-         <nav class="Topnav">
-              <ul>
-                <li><a href="event.html">Event</a></li>
-                <li><a href="RSVP.html">RSVP</a></li>
-                <li><a href="contact.html">Contact</a></li>
-             </ul>
-          </nav>
-          <button><a href="index.html">Back to Home</a></button>
+  <header>
+    <a href="index.html"><img src="WhatsApp Image 2023-12-11 at 19.07.31_cc2a0650.jpg" alt="Photo"
+       width="30px" height="30px"></a>
 
-          <a href="" class="btn"><img src="menu-dots.svg" alt="menu dots"></a>
-      </header>
+     <nav class="Topnav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="event.html">Event</a></li>
+            <li><a href="RSVP.html">RSVP</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+         </ul>
+      </nav>
+      <button class="explorebtn"><a href="event.html">Explore</a></button>
+
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Menu
+            <img src="menu-dots.svg" alt=""> </button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="event.html">Home</a>
+            <a href="RSVP.html">RSVP</a>
+            <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      
+  </header>
 
       <section class="pagetitle">
         <h2>RSVP</h2>
-        <p>Book your spot NOW!!!!</p>
+        <p>Book your spot NOW!!!! <br> Make your Reservation TODAY </p>
       </section>
       
-     <section class="RSVP-form">
-        
-      <form action="" method="post">
-        <div class="form">
-          <label for="contact"> Contact name </label>
-          <input type="text" name="contact name" id="contact" placeholder="Your full name">
-        </div>
-
-        <br>
-        <div class="form">
-          <label for="email">Email address </label>
-          <input type="text" name="email address" id="email" placeholder=" @gmail.com">
-        </div>
-        <br>
-        
-        <div class="form">
-            <label for="Phone number "> Phone number </label>
-            <input type="text" name="Phone number " id="Phone number" placeholder=" 0123456789">
+     <div id="FORMS" class="rsvpform">
+       <section class="RSVP-form">
+       
+        <form action="" method="post">
+          <div class="form">
+            <label for="contact"> Contact name </label>
+            <input type="text" name="contact name" id="contact" placeholder="Your full name">
           </div>
           <br>
-
-        <div class="form">
-            <label for="Ticket-number"> Ticket number </label>
-            <input type="text" name="Ticket-number" id="Ticket-number" placeholder=" ">
+          <div class="form">
+            <label for="email">Email address </label>
+            <input type="text" name="email address" id="email" placeholder=" @gmail.com">
           </div>
-    </form>
-         
-           <img src="Register Now .jpeg" alt="supporting image ">
-     </section>  
+          <br>
+       
+          <div class="form">
+              <label for="Phone number "> Phone number </label>
+              <input type="text" name="Phone number " id="Phone number" placeholder=" 0123456789">
+            </div>
+            <br>
+          <div class="form">
+              <label for="Ticket-number"> Ticket number </label>
+              <input type="text" name="Ticket-number" id="Ticket-number" placeholder=" ">
+            </div>
+            
+            <div class="form">
+              <button ><a href="event.html">Register Now</a></button>
+                 </div>
 
-     <button><a href="index.html">Back to Home</a></button>
+           </form>
+             <img src="Register Now .jpeg" alt="supporting image ">
+       </section>
+       
+     </div>
 
-
-      <footer>
-        <p>&copy; 2023 . All rights reserved.
-           <div class="social-media">
-          <a href="https://twitter.com/YourTwitter" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-twitter-square"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/Saffotubi" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="https://github.com/Saffo tubi" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-github-square"></i>
-          </a> </p>
-      </footer> 
+     <footer>
+      <div class="footer">
+          <p>&copy; <strong>BOLD EVENTS</strong> 2023 . All rights reserved.
+    
+            <div class="footercontact">
+                <a href="contact.html" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-sharp fa-regular fa-phone"></i>Contact Us</a>
+            </div>
+    
+             <div class="social-media">
+           
+            <a href="https://twitter.com/YourTwitter" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-twitter-square"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/Saffotubi" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin"></i>
+            </a>
+          <a href="https://www.instagram.com/_.coco.___________ "><i class="fab fa-instagram-square"></i></a>
+          </p> </div>
+      </div>
+    </footer> 
+      
 </body>
 </html>

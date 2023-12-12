@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <i class="mobile"></i>
+    <script src="script.js"></script>
 </head>
 <body>
 
@@ -25,9 +26,18 @@
 
              </ul>
           </nav>
-          <button><a href="event.html">Explore</a></button>
+          <button class="explorebtn"><a href="event.html">Explore</a></button>
 
-          <a href="" class="btn"><img src="menu-dots.svg" alt="menu dots"></a>
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Menu
+                <img src="menu-dots.svg" alt=""> </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="event.html">Home</a>
+                <a href="RSVP.html">RSVP</a>
+                <a href="contact.html">Contact</a>
+            </div>
+          </div>
+          
       </header>
 
      
@@ -43,33 +53,38 @@
                 Join us and make your events stand out without the stress. <strong>Bold Events:</strong> where simplicity meets impact.
                  </p>
                 
-                <!-- countdown timer -->
-                <button><a href="index.html">Explore</a></button>
+                <div class="countdown">
+                    <script>(function(d, s, id) { var js, pjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//www.tickcounter.com/static/js/loader.js"; pjs.parentNode.insertBefore(js, pjs); }(document, "script", "tickcounter-sdk"));</script><a data-type="countdown" data-id="4689237" class="tickcounter" style="display:block; left:0; width:700px; height:50px; position:relative; padding-bottom:0; margin:0 auto;" title="BOLD Christmas Extravaganza" 
+                    href="//www.tickcounter.com/">BOLD Christmas Extravaganza</a>
+                </div>
+                 
+                <button><a href="event.html">Explore</a></button>
 
             </div>
-                <img src="WhatsApp Image 2023-12-11 at 19.07.31_cc2a0650.jpg" alt="pic">
+                <img id="hero-image" src="WhatsApp Image 2023-12-11 at 19.07.31_cc2a0650.jpg" alt="pic">
         </div>
      </section>
 
       <div class="event">
-           <h2>Headline </h2>
+           <h2>Mission statement</h2>
            <p>Bold Events: Where Moments Unfold, Connections Flourish, and Memories Take Center Stage!</p>
 
-             <!-- <button><a href="index.html">Back to Home</a></button> -->
+             
       </div>
         
      <div class="event-sponsors">
-        <h3>Event Sponsors </h3>
+        <h3>Patner Brands </h3>
         <div class="sponsorship">
             <div class="sponsors">
-                <img src="CTA.jpg" alt="CVA logo 1">
-            
-            
+                <img src="coco visual arts.png" alt="CVA logo 1" width="121px"  height="100px">
              </div>
+
              <div class="sponsors">
-                <img src="Techguru.png" alt="logo 2">
-            
-            
+                <img id="Techguru" src="Techguru.png" alt="logo 2">
+             </div>
+
+             <div class="sponsors">
+                <img id="Three" src="sponsors3.png" alt="logo 3">
              </div>
         </div>
          
@@ -77,17 +92,25 @@
      </div>
 
     <footer>
-  <p>&copy; <strong>BOLD EVENTS</strong> 2023 . All rights reserved.
-     <div class="social-media">
-    <a href="https://twitter.com/YourTwitter" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-twitter-square"></i>
-    </a>
-    <a href="https://www.linkedin.com/in/Saffotubi" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-linkedin"></i>
-    </a>
-    <a href="https://github.com/Saffo tubi" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-github-square"></i>
-    </a> </p>
+  <div class="footer">
+      <p>&copy; <strong>BOLD EVENTS</strong> 2023 . All rights reserved.
+
+        <div class="footercontact">
+            <a href="contact.html" target="_blank" rel="noopener noreferrer">
+                <i class="fa-sharp fa-regular fa-phone"></i>Contact Us</a>
+        </div>
+
+         <div class="social-media">
+       
+        <a href="https://twitter.com/YourTwitter" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-twitter-square"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/Saffotubi" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-linkedin"></i>
+        </a>
+      <a href="https://www.instagram.com/_.coco.___________ "><i class="fab fa-instagram-square"></i></a>
+      </p> </div>
+  </div>
 </footer>  
 </body>
 </html>
