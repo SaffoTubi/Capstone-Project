@@ -81,6 +81,8 @@ h2 { padding-left: 50%; }
     gap: 140px;
     align-items: center; 
     padding-left: 2%;  
+    /* position: fixed; */
+  bottom: 10px;
 }
 
 .social-media {display: flex; align-items: center;}
@@ -115,8 +117,7 @@ h2 { padding-left: 50%; }
     margin-top: 2%;}
 
     #Submit {
-         /* padding-left: 20%;
-    align-items: center; */
+    
 margin: 02%;}
 
 @media screen and (max-width: 1000px) {
@@ -164,7 +165,7 @@ margin: 02%;}
         font-size: large; }
 
     .sponsorship {display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
 padding-left: 37px; }
 
     .RSVP-form { display: grid;
@@ -181,8 +182,15 @@ padding-left: 37px; }
     h2 { text-transform: capitalize;}
 
     .tabcontent { margin-top: 1px; }
+
+    .hero-section {display: grid;}
     .hero-content {      display: grid;
          color: black; gap: 20px; }
          #hero-image {order: -1; width: 40%;}
-         #Techguru {max-width: 100%;}
+         #Techguru {max-width: 100%; min-width: 100px;}
+
+    
+    .footer {
+       display: block;
+    }
 }
