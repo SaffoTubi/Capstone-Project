@@ -1,7 +1,5 @@
-* {
-    background: url(download.jpeg);
-    background-size: cover;
-    color: white;
+* { 
+    color: rgb(11, 11, 11);
     padding: 5px;
 }
 
@@ -20,7 +18,7 @@ nav ul { list-style: none;}
  
  nav ul li a {
     text-decoration: none;
-    color: rgb(138, 157, 173);
+    color: rgb(245, 45, 6);
     font-weight: 900;
     font-size: x-large; }
 
@@ -43,51 +41,76 @@ nav ul { list-style: none;}
     gap: 100px;
     margin-top: 5px }
 
+.hero-1 {background: url(Om2Fbj.jpg) ; background-blend-mode: overlay;  color: rgb(252, 248, 248);
+    font-family: 'Times New Roman', Times, serif;
+     font-size: xx-large;}
+
+.title h1 { font-family: 'Times New Roman', Times, serif;
+     font-size: xx-large; }     
+
+
 .hero img {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
+     max-width: fit-content; }
 .event p {padding-left: 23px;}
-.event-sponsors {
-    margin-top: 5px;
-}
-.event-sponsors h3 , .tickets h3 { padding-left: 50%; }
-h2 { padding-left: 50%; }
+.event-sponsors { margin-top: 5px;}
+h2, .event-sponsors h3 , .tickets h3 { text-align: center; }
 .event h2, .pagetitle h2  {padding-left: 5%;}
 
-.sponsorship {
+h2 {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+
+
+h2 {
+    color: rgb(19, 19, 19);
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+h3,h4 {
+    text-transform: uppercase;
+    text-decoration: rgb(224, 107, 57);
+    letter-spacing: .7px; }
+
+.sponsorship  {
     display: flex;
     gap: 100px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between; background-color: rgb(23, 72, 72);
 }
 
 .ticket-type {
+    background-image: url(OIP.jpg);
     justify-content: space-around;
     align-items: center;
 }
 
-.contact-info { display: grid; background-color: bisque;}
+.contact-info { display: grid; 
+}
 
 .email, .address, .phone { display: flex; align-items: center; }
 
-.contact-me {color: antiquewhite; background-color: azure;}
+.contact-me {color: rgb(17, 17, 16); background-color: azure;}
 
+.contact-us, .pagetitle {background: url(OIP\ \(5\).jpg);}
+.pagetitle, h3 {font-size: larger; font-weight: 500; font-style: oblique;}
 
+.contact-div {background-image: url(mimi\ -\ Copy.jpeg); display: block; }
+h5 {color: rgb(253, 252, 250); font-size: larger; }
+
+.main-contact p {font-size: larger; font-weight: bold; color: rgb(255, 255, 255)55, 240, 240); }
 .footer {
     display: flex;
-    gap: 140px;
+    gap: 340px;
     align-items: center; 
     padding-left: 2%;  
-    /* position: fixed; */
   bottom: 10px;
 }
 
-
+.imagecontainer {background-image: url(Om2Fbj.jpg);}
 .social-media {display: flex; align-items: center;}
-.hero-section {
+.hero-section, .About {
     display: flex;
     margin: 5%;
     gap: 100px;
@@ -101,7 +124,7 @@ h2 { padding-left: 50%; }
 .ticket-type {
     display: flex;
     gap: 30px;
-    background-color: azure;}
+    }
  
 .Regular, .group, .VIP {background-color: azure;}    
 .countdown { margin-bottom: 35px;}
@@ -109,7 +132,10 @@ h2 { padding-left: 50%; }
  .RSVP-form {
     display: flex;
     justify-content: space-around;
-    margin-top: 3px;    }
+    margin-top: 3px;  } 
+
+ .main-form {background: url(ZrdWtE.jpg); background-position: center;
+     background-repeat: no-repeat;}   
 
     .info  { display: flex; } 
 
@@ -120,6 +146,8 @@ h2 { padding-left: 50%; }
     #Submit {
     
 margin: 02%;}
+
+button {border: bisque; border-radius: 2px; box-shadow: #5c0909;}
 
 @media screen and (max-width: 1000px) {
     header .Topnav { display: none;} 
@@ -196,9 +224,6 @@ padding-left: 37px; }
     }
 }
 
-/* .RSVP-form {
-    display: flex; */
-/* } */
 
 .RSVP-form img {
     width: 200px;
