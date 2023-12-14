@@ -1,4 +1,4 @@
-# portfolio_website
+# BOLD EVENT WEBSITE
 
 BOLD EVENT WEBSITE
 Showcasing the BOLD CHRISTMAS EXTRAVAGANZA
