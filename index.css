@@ -111,7 +111,8 @@ h5 {color: rgb(253, 252, 250); font-size: larger; }
     padding-left: 2%;  
   bottom: 10px;
 }
-
+.contact-us {
+    color: white;
 .imagecontainer {background-image: url(Om2Fbj.jpg);}
 .social-media {display: flex; align-items: center;}
 .hero-section, .About {
