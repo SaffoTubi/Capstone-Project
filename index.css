@@ -1,11 +1,5 @@
 * { 
-<<<<<<< HEAD
     color: rgb(0,0,0;)
-=======
-    color: rgb(0,0,0);
-    /* background-image: url(RtdCzi.jpg); */
-    /* background-image: url(11\ Most\ Aesthetic\ Wallpapers.jpeg); */
->>>>>>> revert-branch
   
 }
 body {
@@ -113,8 +107,7 @@ h3,h4 {
 
 .contact-me {color: rgb(17, 17, 16); background-color: azure;}
 
-.contact-us, .pagetitle { width: auto; height: 250px;
-color: aliceblue;} 
+.contact-us, .pagetitle { width: auto; height: 250px; color: black;} 
 /* .p-align {text-align: center; margin-top: 30px; align-items: baseline; vertical-align: bottom;}  */
 /* 
 .pagetitle h2 {vertical-align: bottom;} */
@@ -147,7 +140,7 @@ h5 {color: rgb(253, 252, 250); font-size: larger; }
     width: 200px;
 }
 
-.main { align-items: center; max-width: fit-content; font-size: large; font-weight: 900;}
+.main { align-items: center; max-width: fit-content; font-size: large; font-weight: 900; background-image: url(RtdCzi.jpg);  }
 .ticket-type {
     display: flex;
     gap: 30px;
@@ -191,8 +184,10 @@ margin: 02%;}
         cursor: pointer;
       }
       .About {
-        font-weight: 600;
+        font-weight: 700;
       }
+
+      .
       .dropbtn:hover, .dropbtn:focus {
         background-color: #2980B9;
       }
