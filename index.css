@@ -1,8 +1,16 @@
 * { 
+<<<<<<< HEAD
     color: rgb(0,0,0;)
+=======
+    color: rgb(0,0,0);
+    /* background-image: url(RtdCzi.jpg); */
+    /* background-image: url(11\ Most\ Aesthetic\ Wallpapers.jpeg); */
+>>>>>>> revert-branch
   
 }
-
+body {
+    background-image: url(RtdCzi.jpg);
+}
 header {
     display: flex;
     gap: 5px;
@@ -11,6 +19,8 @@ header {
    }
  
 nav ul { list-style: none;}
+ 
+
  
  nav ul li {
     display: inline-block;
@@ -22,9 +32,15 @@ nav ul { list-style: none;}
     font-weight: 900;
     font-size: x-large; }
 
+    li {
+        display: list-item;
+        text-align: -webkit-match-parent;
+    }
  .btn {  
     display: none; 
 }
+
+
 
 .dropdown-content {
     display: none;
@@ -40,6 +56,10 @@ nav ul { list-style: none;}
     display: flex;
     gap: 100px;
     margin-top: 5px }
+
+    .hero-content p {
+        color: #333;
+    }
 
 .hero-1 {background: url(2.jpg)  rgb(63, 63, 125) ; background-size: cover; 
     font-family: 'Times New Roman', Times, serif;
@@ -93,7 +113,8 @@ h3,h4 {
 
 .contact-me {color: rgb(17, 17, 16); background-color: azure;}
 
-.contact-us, .pagetitle {background: url(Om2Fbj.jpg); width: auto; height: 250px;} 
+.contact-us, .pagetitle { width: auto; height: 250px;
+color: aliceblue;} 
 /* .p-align {text-align: center; margin-top: 30px; align-items: baseline; vertical-align: bottom;}  */
 /* 
 .pagetitle h2 {vertical-align: bottom;} */
@@ -111,7 +132,9 @@ h5 {color: rgb(253, 252, 250); font-size: larger; }
     padding-left: 2%;  
   bottom: 10px;
 }
-
+.pagetitle .p-align h2 {
+    color: (black);
+}
 .imagecontainer {background-image: url(Om2Fbj.jpg);}
 .social-media {display: flex; align-items: center;}
 .hero-section, .About {
@@ -124,7 +147,7 @@ h5 {color: rgb(253, 252, 250); font-size: larger; }
     width: 200px;
 }
 
-.main { align-items: center; max-width: fit-content;}
+.main { align-items: center; max-width: fit-content; font-size: large; font-weight: 900;}
 .ticket-type {
     display: flex;
     gap: 30px;
@@ -167,7 +190,9 @@ margin: 02%;}
         border: none;
         cursor: pointer;
       }
-      
+      .About {
+        font-weight: 600;
+      }
       .dropbtn:hover, .dropbtn:focus {
         background-color: #2980B9;
       }
