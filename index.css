@@ -12,6 +12,7 @@ header {
  
 nav ul { list-style: none;}
  
+ 
  nav ul li {
     display: inline-block;
     margin-right: 2rem; }
@@ -22,6 +23,10 @@ nav ul { list-style: none;}
     font-weight: 900;
     font-size: x-large; }
 
+    li {
+        display: list-item;
+        text-align: -webkit-match-parent;
+    }
  .btn {  
     display: none; 
 }
